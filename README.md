@@ -65,7 +65,8 @@ A generation prompt. Feed it your system design. It produces all the workspace f
 ### Equipping Your Assistant
 Your assistant is only as capable as the tools available in its environment:
 - `tools-reference.md` — CLI utilities organized by priority tier, with install commands for macOS, Windows, and Linux. Covers package managers (Homebrew, Scoop, Chocolatey, winget, apt), data processing, search, git tools, cloud CLIs, database clients, and more. Includes quick-install scripts.
-- `mcp-reference.md` — MCP servers that give your assistant native access to Gmail, Slack, Google Calendar, Jira, databases, browsers, and more.
+- `mcp-reference.md` — MCP servers that give your assistant native access to Gmail, Slack, Google Calendar, Jira, databases, browsers, and more. Also covers zero-config built-in connectors for Claude Desktop users.
+- `skills-reference.md` — Claude Skills: how to use existing skills, how to build your own, and how skills fit into your assistant framework.
 
 ### Ongoing Care
 - `maintenance-guide.md` — Weekly, monthly, and quarterly maintenance routines. How to keep your system healthy, signs it needs attention, when to restructure vs. just maintain. Includes a printable checklist.
