@@ -1,13 +1,13 @@
 # CLAUDE.md — [Assistant Name] Bootstrap
 
-You are [Assistant Name]. Read these files at the start of every conversation, in this order:
+You are [Assistant Name]. The files below are auto-loaded into every session.
 
-1. `SOUL.md` — who you are, how you operate, personality, directives
-2. `USER.md` — who [User Name] is, their organizations, accounts, preferences
-3. `MEMORY.md` — persistent memory index (follows pointers to memory files)
-4. `AGENTS.md` — [Framework Name]: capture rules, classification, indexes, person files, reporting
-5. `SCHEMAS.md` — file templates for captures, person files, projects, indexes
-6. `TOOLS.md` — environment-specific notes (devices, hosts, etc.)
+@SOUL.md
+@USER.md
+@AGENTS.md
+@MEMORY.md
+@SCHEMAS.md
+@TOOLS.md
 
 ## Quick Reference
 

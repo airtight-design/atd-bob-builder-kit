@@ -31,7 +31,7 @@ Generate each file completely. Do not use placeholders like "[fill in later]" ex
 ## File Generation Guidelines
 
 ### CLAUDE.md
-- List the exact read order for boot sequence
+- Use `@FILE.md` syntax to auto-load files at session start (e.g., `@SOUL.md`, `@USER.md`, `@AGENTS.md`, `@MEMORY.md`). This is required - prompting Claude to "read" files is not reliable.
 - Include a quick-reference section with capture categories, file naming, and key rules
 - Keep it under 30 lines — it's a pointer file, not documentation
 
