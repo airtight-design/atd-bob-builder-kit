@@ -15,6 +15,35 @@ Think of it like plugins. Each MCP server adds a set of tools. Your assistant se
 
 ---
 
+## Zero-Config Option: claude.ai Built-in Connectors
+
+If you use Claude Desktop or Claude.ai (paid plans), you can connect to many services without any configuration files, API keys, or local servers. Anthropic hosts these connectors and handles the authentication flow.
+
+**Available connectors include:** Gmail, Google Drive, Google Calendar, Slack, Atlassian (Jira + Confluence), GitHub, HubSpot, Microsoft 365, Zoom, and more.
+
+### How to connect
+
+1. Open Claude Desktop (or claude.ai in your browser)
+2. Go to **Settings** - look for **Integrations** or **Connections**
+3. Find the service you want to connect
+4. Click **Connect** and complete the OAuth flow in your browser
+
+Once connected, your assistant can use that service natively in any conversation - no config files, no terminal commands.
+
+### When to use built-in connectors vs. self-hosted
+
+| | Built-in connectors | Self-hosted MCP servers |
+|---|---|---|
+| **Setup** | OAuth click-through only | Config file + API keys or local server |
+| **Works in** | Claude Desktop, Claude.ai | Claude Code, Cursor, any MCP-compatible client |
+| **Maintenance** | Anthropic maintains | You maintain |
+| **Customization** | Fixed capabilities | Full control |
+| **Best for** | Getting started fast, non-technical users, standard workflows | Developers, custom integrations, automations, local data |
+
+Start with built-in connectors if they cover your needs. Switch to self-hosted when you need capabilities beyond what the built-in connector offers, or when you are running Claude Code rather than Claude Desktop.
+
+---
+
 ## How MCP Works in Claude Code
 
 MCP servers are configured in `.mcp.json` files. Claude Code reads these on startup and connects to the specified servers.
